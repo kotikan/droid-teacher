@@ -1,0 +1,35 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="animations.demo.android.kotikan.com.animations.ToasterActivity">
+
+    <RelativeLayout
+        style="@style/TopContainer">
+
+        <EditText
+            android:layout_marginTop="45dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/input_name"
+            android:layout_alignParentTop="true"
+            android:hint="Please input your name"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:paddingLeft="16dp"
+            android:layout_alignParentEnd="true" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Toast"
+            android:id="@+id/btn_toaster"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true" />
+
+    </RelativeLayout>
+</RelativeLayout>
